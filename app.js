@@ -1,5 +1,6 @@
 const express = require("express");
 const ejs = require("ejs");
+const path = require('path');
 let minitues = 25;
 
 const app = express();
